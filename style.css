@@ -13,12 +13,12 @@ body {
 }
 header {
   display: grid;
-  justify-content: center;
   font-family: "Times New Roman", Times, serif;
   font-size: 25px;
   font-weight: bold;
   background-color: rgba(202, 5, 5, 0.763);
   color: white;
+  padding: 15px;
 }
 footer {
   color: black;
@@ -75,4 +75,31 @@ h3 {
 .col {
   width: 100%;
   border: 1px solid rgba(202, 5, 5, 0.763);
+}
+
+video {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+}
+iframe {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+}
+#home {
+  position: absolute;
+  max-width: 90px;
+  gap: 10px;
+  padding-bottom: 5px;
+  top: 1%;
+  left: 1%;
+}
+h1 {
+  font-size: 40px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  color: rgba(118, 16, 118, 0.655);
+}
+a {
+  padding-left: 20%;
+  padding-top: 8px;
 }
